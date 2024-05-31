@@ -11,7 +11,7 @@ This is a simple calculator web application built using HTML, CSS, and JavaScrip
 
 ## Usage
 
-Simply open the `index.html` file in a web browser to use the calculator. Alternatively, you can visit the hosted version [here](#).
+Simply open the `index.html` file in a web browser to use the calculator. Alternatively, you can visit the hosted version  https://jinang12.github.io/Calculator/
 
 ## Contributing
 
