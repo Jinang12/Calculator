@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="screen">
+                <div class="inner"></div>
+            </div>
+            <div class="box">
+            <div class="buttons">
+                <button id="seven" class="btns">7</button>
+                <button id="eight" class="btns">8</button>
+                <button id="nine" class="btns">9</button>
+                <button id="del" onclick="Delete()">del</button>
+                <button id="four" class="btns">4</button>
+                <button id="five" class="btns">5</button>
+                <button id="six" class="btns">6</button>
+                <button id="plus" class="btns">+</button>
+                <button id="one" class="btns">1</button>
+                <button id="two" class="btns">2</button>
+                <button id="three" class="btns">3</button>
+                <button id="minus" class="btns">-</button>
+                <button id="dot" class="btns">.</button>
+                <button id="zero" class="btns">0</button>
+                <button id="divide" class="btns">/</button>
+                <button id="multiply" class="btns">*</button>
+                <button id="reset" onclick="DeleteAll()">Reset</button>
+                <button id="equal" onclick="Evaluate()" class="btns">=</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+</html>
